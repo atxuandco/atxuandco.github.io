@@ -1,0 +1,232 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+body{
+  background-color: #EFFBF1;
+  color: #000000;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 50px 0 50px;
+  background-color: #EFFBF1;
+}
+
+.cabeza{
+  height: 10%;
+  min-height: 10%;
+}
+
+h2, h1{
+  color: #C226F7;
+  font-family: 'space_grotesklight';
+  font-size: 2em;
+  position: relative;
+  left: 30%;
+}
+
+h3{
+  color: #C226F7;
+  font-family: 'space_grotesklight';
+  font-size: 2.5em;
+}
+h4{
+  color: #C226F7;
+  font-family: 'space_grotesklight';
+  size: 2em;
+}
+
+.texto{
+  width: 50%;
+  padding-top: 200px;
+  padding-bottom: 500px;
+}
+
+.imagenes{
+  width: 20%;
+}
+
+.foro{
+  width: 30%;
+}
+
+#foro{
+  position:sticky;
+  top: -60px;
+}
+
+
+section {
+  padding: 150px 0 30px 0;
+}
+
+.tropezones{
+  padding-right: 5%;
+  padding-left: 30%;
+  margin-bottom: 30px;
+  font-family: 'telegrafregular';
+}
+
+.tropezones p{
+  font-size: 1.5em;
+}
+
+.bechamel{
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-bottom: 20px;
+  font-family: 'telegrafregular';
+}
+
+.cursiva {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 800px) {
+  .texto, .imagenes, .foro{
+    width: 99%;
+  }
+
+  .texto{
+    padding-bottom: 100px;
+  }
+
+  .imagenes, .foro{
+    padding: 0 10%;
+  }
+
+  body{ 
+    width: 96%;
+  }
+
+  h2, h1{
+    font-size: 1.4em;
+  left: 0%;
+  }
+
+  .tropezones{
+    padding-right: 0%;
+    padding-left: 20%;
+  }
+  
+  .bechamel{
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+img{
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+}
+
+.img_modal{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 900px;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  border-radius: 10px;
+}
+
+#logoco{
+  display: none;
+}
+
+#disqus_thread{
+  width: 95%;
+  height: 550px;
+  padding: 0 5%;
+  overflow-y: auto;
+}
+
+.modal-content{
+  border-radius: 50px;
+  background-color: #EFFBF1;
+}
+
+
+.modal-dialog{
+  width: 40%;
+  max-width: 40%;
+  max-height: 90%;
+}
+
+.modal-body{
+  padding: 0;
+}
+
+
+
+
+.description{
+  padding: 0 2% 2% 2%;
+  font-family: 'telegrafregular';
+  
+  color: #C226F7;
+}
+
+.sticky-top{
+  top: 10%;
+}
+
+.close{
+  position: relative;
+  top: -15px;
+  right: -35px;
+  color: white;
+}
+
+mark.sub_texto{
+  background-color: #D785F8;
+}
+
+mark.sub_title{
+  background-color: #effbf1;
+  color: #C226F7;
+}
+
+mark.sub_has{
+  background-color: #effbf1;
+  color: #C226F7;
+  font-family: 'telegrafultrabold';
+}
+
+
+@media only screen and (max-width: 800px) {
+  .modal-dialog{
+    width: 80%;
+    max-width: 80%;
+
+    
+  }
+
+  #lococo{
+    width: 70%;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .modal-content{
+    border-radius: 30px;
+  }
+
+  #logoco{
+    display: block;
+  }
+
+  .texto{
+    padding-top: 20px;
+  }
+
+
+  
+}
